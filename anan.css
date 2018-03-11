@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Mina');
 @import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+
 #history{
     color:rgb(228, 44, 228);
-    font-family:"Rammetto One";
+    font-family:'Rammetto One';
     font-size:32px;
-    margin:30px auto;
+    margin: 30px auto;
 }
 #arang{
     color:rgb(36, 177, 95);
+    font-family: 'Niconne';
     font-size:20px;
     
 }
 #video{
-    font-family:"mina";
+    font-family:'mina';
     color:cornflowerblue;
 
     
