@@ -4,18 +4,21 @@
 img { max-width: 100%; height: auto; }
 
 #history{
+    max-width:100%;
     color:rgb(228, 44, 228);
     font-family:'Rammetto One';
     font-size:32px;
     margin: 30px auto;
 }
 #arang{
+    min-height:100%;
     color:rgb(36, 177, 95);
     font-family: 'Niconne';
     font-size:20px;
     
 }
 #video{
+    min-height:100%;
     font-family:'mina';
     color:cornflowerblue;
 
