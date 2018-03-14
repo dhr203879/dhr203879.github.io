@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mina');
 @import url('https://fonts.googleapis.com/css?family=Rammetto+One');
 @import url('https://fonts.googleapis.com/css?family=Niconne');
+img { max-width: 100%; height: auto; }
 
 #history{
     color:rgb(228, 44, 228);
