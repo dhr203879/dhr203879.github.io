@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    margin : 0l
+}
+
+#btSave{
+    background-color: dimgrey;
+    color : black;
+    padding :5px;
+    margin-top : 5px;
+    border : 0;
+}
+#mytable{
+    text-align: center;
+    width : 100%;
+}
+#ln{
+    color : grey
+}
+#fn{
+    color : grey
+}
+#pn{
+    color : grey
+}
