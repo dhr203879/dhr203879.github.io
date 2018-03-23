@@ -5,7 +5,6 @@ document.getElementById('btSave').onclick=function(){
     PhoneNumber=document.getElementById('pn').value;
 //각각의 값을 받음
     
-
     table = document.getElementById('mytable');
 
     tr=document.createElement("tr");
