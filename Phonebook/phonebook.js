@@ -24,7 +24,7 @@ document.getElementById('btSave').onclick=function(){
 
     tr.appendChild(td1);
     tr.appendChild(td2);
-    tr.appendChild(td3);w
+    tr.appendChild(td3);
     tr.appendChild(td4);
     
 
