@@ -28,6 +28,8 @@ document.getElementById('btSave').onclick=function(){
     
 
     table.appendChild(tr);
+
+    
 }
 function removeRow(a){ 
     var o=a.parentNode.parentNode.rowIndex;
@@ -35,3 +37,5 @@ function removeRow(a){
 
     document.getElementById('mytable').deleteRow(o);
 }
+
+

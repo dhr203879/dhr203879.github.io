@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    margin : 0l
+}
+
+#btSave{
+    background-color: dimgrey;
+    color : black;
+    padding :5px;
+    margin-top : 5px;
+    border : 0;
+}
+#mytable{
+    text-align: center;
+    width : 100%;
+}
+#ln{
+    color : grey
+}
+#fn{
+    color : grey
+}
+#pn{
+    color : grey
+}
+#lnbu:active{   
+    animation-delay : 0s;
+    animation : move 3s;
+}
+@keyframes move{
+    from{background-color : red;}
+    to  {background-color : blue;}
+}
+    
