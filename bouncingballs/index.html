@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ball</title>
+    <link rel="stylesheet" href="ball.css">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="sub.js"></script>
+
+</head>
+<body>
+
+ 
+
+<div id="mainDiv" style="width:1200px; height:600px">
+    <div id="drawAreaOuter" style="width:100%; height:100%;  ">
+        <div id="menuTop" >
+        Balls-Number : 
+        <input type="range" id="numberOfBalls" value="10" min="10" max="100" onchange="OnNumberOfBallsChanged()">
+        </div>
+        <div id="drawArea" style="width:100%; height:100%; border:1px solid black; background-color: skyblue">
+        </div>
+    </div>
+</div>
+
+<h1></h1><br />
+<a id="startStop" href="javascript:StartStopGame()">START</a> <br />
+
+</body>
+<script src="ball.js"></script>
+</html>
