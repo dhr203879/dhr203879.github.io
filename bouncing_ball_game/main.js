@@ -4,8 +4,8 @@
     var ballRadius = 10;
     var x = canvas.width/2;
     var y = canvas.height-30;
-    var dx = 2;
-    var dy = -2;
+    var dx = 3;
+    var dy = -3;
     var paddleHeight = 20;
     var paddleWidth = 120;
     var paddleX = (canvas.width-paddleWidth)/2;
@@ -73,7 +73,7 @@
     function drawBall() {
         ctx.beginPath();
         ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-        ctx.fillStyle = "#0095DD";
+        ctx.fillStyle = "white";
         ctx.fill();
         ctx.closePath();
     }
@@ -94,7 +94,7 @@
                     bricks[c][r].y = brickY;
                     ctx.beginPath();
                     ctx.rect(brickX, brickY, brickWidth, brickHeight);
-                    ctx.fillStyle = "#0095DD";
+                    ctx.fillStyle = "red";
                     ctx.fill();
                     ctx.closePath();
                 }
