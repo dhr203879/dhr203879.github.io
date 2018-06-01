@@ -19,7 +19,7 @@
     var brickOffsetTop = 30;
     var brickOffsetLeft = 30;
     var score = 0;
-    var lives = 3;
+    var lives = 2;
     var bricks = [];
     for(var c=0; c<brickColumnCount; c++) {
         bricks[c] = [];
@@ -62,7 +62,7 @@
                         b.status = 0;
                         score++;
                         if(score == brickRowCount*brickColumnCount) {
-                            alert("END");
+                            alert("Clear");
                             document.location.reload();
                         }
                     }
@@ -109,7 +109,7 @@
     function drawLives() {
         ctx.font = "16px Arial";
         ctx.fillStyle = "#0095DD";
-        ctx.fillText("Lives: "+lives, canvas.width-65, 20);
+        ctx.fillText("Life: "+lives, canvas.width-65, 20);
     }
     function draw() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
