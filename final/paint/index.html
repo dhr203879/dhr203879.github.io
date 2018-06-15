@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>kyungmin</title>
+ <link rel="stylesheet" href="paint.css">
+</head>
+
+<body onload="ready()">
+ <div>
+  <input type="button" value="reset" onclick="erase()">
+  <input type="button" value="eraser" onclick="white()"></input> <br /><br />
+
+  <input type="button" value="XS" onclick="w1()"></input>
+  <input type="button" value="S" onclick="w5()"></input>
+  <input type="button" value="M" onclick="w15()"></input>
+  <input type="button" value="L" onclick="w20()"></input>
+  <input type="button" value="XL" onclick="w30()"></input> <br /><br />
+
+  <input type="button" style="background-color: red; width:25px;height:25px;" onclick="red()"></input>
+  <input type="button" style="background-color: orange; width:25px;height:25px;" onclick="orange()"></input>
+  <input type="button" style="background-color: yellow; width:25px;height:25px;" onclick="yellow()"></input>
+  <input type="button" style="background-color: green; width:25px;height:25px;" onclick="green()"></input>
+  <input type="button" style="background-color: blue; width:25px;height:25px;" onclick="blue()"></input>
+  <input type="button" style="background-color: navy; width:25px;height:25px;" onclick="navy()"></input>
+  <input type="button" style="background-color: purple; width:25px;height:25px;" onclick="purple()"></input>
+  <input type="button" style="background-color: brown; width:25px;height:25px;" onclick="brown()"></input>
+  <input type="button" style="background-color: pink; width:25px;height:25px;" onclick="pink()"></input>
+  <input type="button" style="background-color: gray; width:25px;height:25px;" onclick="gray()"></input>
+  <input type="button" style="background-color: black; width:25px;height:25px;" onclick="black()"></input>
+
+ </div>
+ <canvas id="canvas" width="675" height="500"></canvas>
+</body>
+</html>
+<script src="paint.js"></script>
+
